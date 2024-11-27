@@ -2,6 +2,8 @@
   "name": "voicenote-",
   "displayName": "voicenote+",
   "description": "",
+  "publisher": "hjpotter1",
+  "icon": "create-note.png",
   "version": "0.0.1",
   "repository": {
     "type": "git",
@@ -20,7 +22,8 @@
     "commands": [
       {
         "command": "voicenote.createNote",
-        "title": "Create Note"
+        "title": "Create Note",
+        "icon": "./create-note.png"
       }
     ],
     "keybindings": [
