@@ -13,12 +13,12 @@ export function activate(context: vscode.ExtensionContext) {
 
       let notePath: string;
       if (!workspaceFolders || workspaceFolders.length === 0) {
-        // 如果没有打开工作区文件夹，则在临时目录中创建文件
+        // ワークスペースフォルダが開かれていない場合、一時ディレクトリにファイルを作成する
         const tempDir = os.tmpdir();
         const noteName = `note-${Date.now()}.md`;
         notePath = path.join(tempDir, noteName);
       } else {
-        // 如果有打开工作区文件夹，则在工作区文件夹中创建文件
+        // ワークスペースフォルダが開かれている場合、ワークスペースフォルダにファイルを作成する
         const noteName = `note-${Date.now()}.md`;
         notePath = path.join(workspaceFolders[0].uri.fsPath, noteName);
       }
@@ -27,7 +27,7 @@ export function activate(context: vscode.ExtensionContext) {
 
       const document = await vscode.workspace.openTextDocument(notePath);
       await vscode.window.showTextDocument(document);
-      // 执行编辑器听写命令
+      // エディタのディクテーションコマンドを実行する
       await vscode.commands.executeCommand(
         'workbench.action.editorDictation.start'
       );
