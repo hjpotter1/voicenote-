@@ -1,26 +1,26 @@
 # VoiceNote+
 
-VoiceNote+ 是一个帮助你快速创建和管理语音笔记的 Visual Studio Code 扩展。
+VoiceNote+ は、音声メモを迅速に作成および管理するための Visual Studio Code 拡張機能です。
 
-## 功能介绍
+## 機能紹介
 
-- **创建新笔记**：通过命令面板快速创建语音笔记。
-- **管理已有笔记**：列出和管理你的所有语音笔记。
+- **新しいメモを作成**：コマンドパレットを使用して迅速に音声メモを作成します。
+- **既存のメモを管理**：すべての音声メモを一覧表示して管理します。
 
-## 如何使用
+## 使用方法
 
-1. 安装扩展：
+1. 拡張機能をインストール：
 
-   - 在 VS Code 扩展商店中搜索 "VoiceNote+" 并安装。
+   - VS Code 拡張機能ストアで "VoiceNote+" を検索してインストールします。
 
-2. 使用扩展：
-   - 打开命令面板 (`Ctrl+Shift+P` 或 `Cmd+Shift+P`)。
-   - 输入 `VoiceNote: Create Note` 来创建新语音笔记。
+2. 拡張機能を使用：
+   - コマンドパレット (`Ctrl+Shift+P` または `Cmd+Shift+P`) を開きます。
+   - `VoiceNote: Create Note` と入力して新しい音声メモを作成します。
 
-## 截图
+## スクリーンショット
 
-![创建语音笔记](./images/create-note.png)
+![音声メモを作成](./images/create-note.png)
 
-## 贡献
+## 貢献
 
-如果你有任何建议或遇到问题，请在 GitHub 上提出 issue 或提交 Pull Request。
+ご意見や問題がありましたら、GitHub で issue を提出するか、Pull Request を送信してください。
