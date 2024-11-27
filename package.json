@@ -1,10 +1,10 @@
 {
   "name": "voicenoteplus",
-  "displayName": "voicenote+",
+  "displayName": "voicenoteplus",
   "description": "",
-  "publisher": "hjpotter1",
+  "publisher": "hjpotter",
   "icon": "create-note.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/hjpotter1/your-repository.git"

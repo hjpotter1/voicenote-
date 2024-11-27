@@ -11,15 +11,14 @@ VoiceNote+ は、音声メモを迅速に作成および管理するための Vi
 
 1. 拡張機能をインストール：
 
-   - VS Code 拡張機能ストアで "VoiceNote+" を検索してインストールします。
+   - VS Code 拡張機能ストアで "voicenoteplus を検索してインストールします。
 
 2. 拡張機能を使用：
-   - コマンドパレット (`Ctrl+Shift+P` または `Cmd+Shift+P`) を開きます。
-   - `VoiceNote: Create Note` と入力して新しい音声メモを作成します。
+   - キーボードショートカット (`Ctrl+Alt+N` または `Cmd+Alt+N`) を押して新しい音声メモを作成します。
 
 ## スクリーンショット
 
-![音声メモを作成](./images/create-note.png)
+![音声メモを作成](./create-note.png)
 
 ## 貢献
 
